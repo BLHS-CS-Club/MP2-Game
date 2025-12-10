@@ -16,6 +16,6 @@ public class AdventureGame {
             Location loc = state.getLocation();
             System.out.println("Player is alive");
         }
-        System.out.println("Game Over!");
+        System.out.println("Game Over");
     }
 }
