@@ -4,9 +4,9 @@ import game.entities.*;
 
 public class Classroom extends Location {
     public Classroom() {
-        super("You are in the Classroom. Dim lights, desks everywhere. "
-            + "A weak Goblin guards a Health Potion.");
-        this.enemy = new Enemy("Goblin");  // 50 HP, 8 ATK
+        super("You are in the Classroom. Dim lights, desks everywhere! "
+            + "Ash the Goblin lurks under the drawers");
+        this.enemy = new Enemy("Ash The Goblin");  
         this.item = new Item("Health Potion", "Heals 30 HP");
     }
 }
