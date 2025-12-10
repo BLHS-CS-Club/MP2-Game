@@ -1,5 +1,4 @@
 package game;
-import java.util.Scanner;
 
 import game.entities.*;
 import game.locations.*;
@@ -11,7 +10,6 @@ public class AdventureGame {
         state.setLocation(new Classroom()); 
         
         while (state.getPlayer().isAlive()) {
-            Location loc = state.getLocation();
             System.out.println("Player is alive");
         }
         System.out.println("Game Over");
