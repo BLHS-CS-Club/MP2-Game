@@ -7,6 +7,6 @@ public class Classroom extends Location {
         super("You are in the Classroom. Dim lights, desks everywhere! "
             + "Ash the Goblin lurks under the drawers");
         this.enemy = new Enemy("Ash The Goblin");  
-        this.item = new Item("Health Potion", "Heals 30 HP");
+        this.item = new Item("Health Potion", "Heals 30 HP", 30);
     }
 }
